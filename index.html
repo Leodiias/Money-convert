@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Convert Moedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+   
+
+
+</head>
+
+<body>
+
+    <img src="./assets/iene.png" class="iene">
+    <img src="./assets/logo.gif" alt="Logo-Gif" class="gif-logo">
+    <main>
+        <label>
+            Converter <b>de:</b>
+            <select>
+                <option><b>R$ Real brasileiro</b></option>
+            </select>
+        </label>
+        <label>
+            Converter <b>para:</b>
+            <select class="selecao">
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="iene">￥ Iene Japonês</option>
+
+            </select>
+        </label>
+        </label>
+        <label class="valors">
+            Valor:
+            <input class="inp" placeholder="R$ 10.000,00"></input>
+        </label>
+
+        <button class="botao">Converter</button>
+
+        <section>
+            <div class="cedula">
+                <img src="./assets/real.png" alt="moeda-brasileira-logo">
+                <p class="moeda-br"><b>Real</b></p>
+                <h1 class="valor">R$ 0,00</h1>
+            </div>
+            <div class="setaa">
+                <img src="./assets/seta.png" alt="Seta-conversao-logo" class="seta3">
+            </div>
+            <div class="cedula">
+                <img src="./assets/usa.png" alt="dolar-americano-logo" class="imagem-moeda">
+                <p class="moeda-us"><b>Dólar</b></p>
+                <h1 class="valor-dolar">US$ 0.0</h1>
+            </div>
+        </section>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
